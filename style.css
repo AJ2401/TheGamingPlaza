@@ -1,0 +1,650 @@
+* {
+  margin: 0;
+  padding: 0;
+  zoom: 95%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: -105rem;
+  /* white-space: nowrap; */
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(wall5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  background-position: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 480px;
+  height: 15vh;
+  background: #550382;
+  display: flex;
+  align-items: center;
+  color: azure;
+  clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+  padding: 10px;
+  line-height: 2.5rem;
+}
+
+.logo.fas {
+  font-size: 50px;
+}
+
+.logo p {
+  width: 250px;
+  margin-left: 22px;
+  line-spacing: 1px;
+  /* margin-bottom: 12px;*/
+  font-size: 35px;
+  font-weight: bold;
+  /* word-spacing: 2px;*/
+}
+
+ul.nav_bar {
+  display: flex;
+  list-style: none;
+  word-spacing: 0.3rem;
+}
+
+ul.nav_bar li {
+  width: 190px;
+  justify-content: space-evenly;
+}
+
+ul.nav_bar li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 650;
+  font-style: italic;
+  font-size: 22px;
+}
+
+ul.nav_bar li a.activity {
+  color: #fec53a;
+}
+
+ul.nav_bar li a:hover:not(.activity) {
+  color: #fec53a;
+}
+
+#b {
+  width: 260px;
+  height: 14vh;
+  background-color: #fec53a;
+  color: black;
+  outline: none;
+  border: none;
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+  text-align: right;
+  padding-right: 25px;
+  align-content: center;
+  font-size: 2.7rem;
+  font-style: italic;
+  font-weight: 650;
+}
+
+body {
+  font-family: "Alef", sans-serif;
+}
+
+/*
+   #b {
+     margin-right: 10px;
+   }*/
+
+.content {
+  width: 80%;
+  min-height: 40vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.describe h1 {
+  /*width: 148px;*/
+  font-size: 4.5rem;
+  margin-top: 68px;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 850;
+  background: linear-gradient(to right,
+      red,
+      rgb(5, 230, 255),
+      #5eff00,
+      rgb(223, 203, 206));
+  -webkit-background-clip: text;
+  position: relative;
+  color: transparent;
+}
+
+.describe p {
+  width: 580px;
+  font-size: 1.8rem;
+  font-family: monospace;
+  /* font-style: italic;*/
+  /*font-weight: bold;*/
+  margin-top: 40px;
+  margin-bottom: 10px;
+  line-height: 2.1rem;
+  letter-spacing: 0.1em;
+}
+
+.describe span {
+  background: linear-gradient(to right,
+      rgb(255, 238, 0),
+      rgb(0, 247, 255),
+      rgb(255, 255, 255),
+      #5eff00,
+      rgb(255, 255, 255),
+      rgb(255, 255, 255),
+      rgb(0, 247, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 28px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+#b2 {
+  width: 300px;
+  height: 11vh;
+  align-items: center;
+  outline: none;
+  border: none;
+  background: linear-gradient(to right, purple, yellow, red);
+  -webkit-background-clip: content-box;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 7.8rem;
+  border-radius: 48px;
+}
+
+.Mysterio {
+  width: 450px;
+  height: 450px;
+  background: linear-gradient(rgb(37, 21, 3),
+      rgb(23, 21, 23), rgba(175, 119, 231, 0.85));
+  margin-top: 95px;
+  position: relative;
+  border-radius: 1rem;
+}
+
+.Mysterio::after {
+  content: "";
+  width: 440px;
+  height: 440px;
+  background: url(logo.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: 0;
+  left: -0.5rem;
+  border-radius: 1rem;
+}
+
+.logo_part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22rem;
+}
+
+.logo_part h1 {
+  width: 480px;
+  font-size: 4.8rem;
+  background: linear-gradient(to right,
+      rgb(253, 253, 253),
+      rgba(211, 12, 218, 0.85),
+      rgb(0, 183, 255),
+      rgb(253, 253, 253),
+      rgb(29, 245, 0),
+      rgb(0, 183, 255),
+      rgb(253, 253, 253));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: monospace;
+  margin-top: 4.8rem;
+  text-align: center;
+}
+
+.logo_part.fas {
+  font-size: 6rem;
+  color: #fec53a;
+}
+
+.Section-1 {
+  width: 100%;
+  height: 140vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.757), rgba(0, 0, 0, 0.7123)),
+    url(background-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.sec-1 {
+  width: 88%;
+  margin: auto;
+}
+
+.sec-1 h1 {
+  font-size: 2.2rem;
+  background: linear-gradient(to right,
+      rgb(254, 254, 254),
+      rgb(239, 243, 6),
+      rgb(211, 12, 218),
+      rgb(29, 245, 0),
+      rgb(0, 183, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 680;
+  margin-top: 1.8rem;
+  margin-bottom: 3.8rem;
+}
+
+.Section-1-img {
+  display: inline-flex;
+}
+
+.Section-1-img .img {
+  width: 150px;
+  height: 190px;
+  background: url(g1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin: 12px 12px 12px 12px;
+  align-items: center;
+}
+
+.Section-1-img .img-2 {
+  background: url(g2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Section-1-img .img-3 {
+  background: url(g3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Section-1-img .img-4 {
+  background: url(g4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Section-1-img .img-5 {
+  background: url(g5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Section-1-img .img-6 {
+  background: url(g6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Section-1-img .img-7 {
+  background: url(g7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Section-1-img .img-8 {
+  background: url(g8.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Section-1-img .img-9 {
+  background: url(g9.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img:hover {
+  transform: scale(1.8);
+}
+
+.game_cat {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+.game_cat h1 {
+  font-size: 2.3rem;
+  margin-top: 40px;
+  background: linear-gradient(to right,
+      rgb(253, 253, 253),
+      rgba(211, 12, 218, 0.85),
+      rgb(0, 183, 255),
+      rgb(253, 253, 253),
+      rgb(29, 245, 0),
+      rgb(0, 183, 255),
+      rgb(253, 253, 253));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.game_cat_wrap {
+  display: inline-flex;
+  margin-right: 1.7rem;
+}
+
+.gc {
+  width: 150px;
+  height: 150px;
+  background: url(logo.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 18px 18px 18px 18px;
+  margin-right: 50px;
+  margin-top: 38px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gc:hover {
+  transform: scale(0.54);
+}
+
+.right {
+  position: relative;
+  right: -25.8rem;
+}
+
+.gc-1 {
+  background: url(pub.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gc-2 {
+  background: url(call.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gc-3 {
+  background: url(as.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gc-4 {
+  background: url(god.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gc-5 {
+  background: url(ghost.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gc-6 {
+  background: url(last.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.gc-7 {
+  background: url(g.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gc-8 {
+  background: url(fall.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gc-9 {
+  background: url(unchart.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.gc-10 {
+  background: url(blood.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gc-12 {
+  background: url(n.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gc-11 {
+  background: url(spider.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.Section-2 {
+  width: 100%;
+  height: 55rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  background: linear-gradient(55deg,
+      rgba(4, 4, 49, 0.863),
+      rgba(4, 4, 49, 0.863),
+      currentColor,
+      rgba(4, 4, 49, 0.863),
+      transparent,
+      rgba(4, 4, 49, 0.863),
+      transparent);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-self: space-between;
+}
+
+.Section-2 h1 {
+  font-size: 4.8rem;
+  text-align: center;
+  color: rgba(252, 249, 249, 0.87);
+  font-style: italic;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen;
+  padding: 15px;
+  display: flex;
+  justify-items: space-between;
+  margin-top: 48px;
+  margin-bottom: 100px;
+}
+
+.players {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: space-between;
+  padding-top: 38px;
+  padding-right: 38px;
+  padding-bottom: 38px;
+  margin-top: 48px;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0.6);
+  }
+
+  30% {
+    transform: scale(0.8);
+  }
+
+  60% {
+    transform: scale(0.6);
+  }
+}
+
+.imgp {
+  width: 180px;
+  height: 180px;
+  background: url(P3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: relative;
+  animation: ripple 10s infinite;
+}
+
+.imgp-1::after {
+  /*content: "VS";*/
+  position: absolute;
+  right: -58px;
+  bottom: 0px;
+  font-size: 3.5rem;
+  color: #fec53a;
+}
+
+.players span {
+  font-size: 28px;
+  font-style: italic;
+  font-family: fantasy;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 249, 249));
+  color: transparent;
+  -webkit-background-clip: text;
+  color: rgb(255, 251, 251);
+  padding-top: 12px;
+}
+
+.imgp-2 {
+  background: url(p4.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.imgp-3 {
+  background: url(P1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.imgp-4 {
+  background: url(P2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.imgp-2::after {
+  /* content: "VS";*/
+  position: absolute;
+  right: -58px;
+  bottom: 0;
+  font-size: 3.8rem;
+  color: #fec53a;
+}
+
+.imgp-3::after {
+  /* content: "VS";*/
+  position: absolute;
+  right: -68px;
+  bottom: 0;
+  font-size: 3.8rem;
+  color: #fec53a;
+}
+
+.players p {
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  align-items: center;
+  padding-top: 10rem;
+  font-style: italic;
+  color: rgb(253, 248, 248);
+  animation: ripple 5s infinite;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.foot {
+  font-size: 22px;
+  color: #fff;
+  width: 100%;
+  height: 10vh;
+  margin-top: 30vh;
+  position: absolute;
+  /* box-sizing: border-box; */
+  justify-content: space-between;
+  background: transparent;
+}
+
+.col-1 li {
+  font-size: 2.2rem;
+  line-height: 4.3rem;
+  font-family: monospace;
+}
+
+.foot h4 {
+  margin-bottom: 10vh;
+  font-size: 32px;
+  color: #fec53a;
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.social {
+  justify-content: space-evenly;
+}
+
+.row h4 {
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.social i {
+  font-size: 2.5rem;
+  margin-top: 10vh;
+  color: #fcfbf8;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
